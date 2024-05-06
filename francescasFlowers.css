@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: green;
+}
+
+p { 
+    margin: 0;
+}
+
+#container {
+    position: relative;
+    width: 10000px;
+    height: 10000px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    background: #931f93;
+    opacity: 0.8;
+    padding: 8px;
+    z-index: 100;
+}
+
+h1 {
+    color: white;
+    font: bold 24px Arial; 
+}
+
+#scoreboard {
+    display: flex;
+    align-items: center;
+    font: bold 24px Arial; 
+    color: white;
+}
+
+#score {
+    margin: 0 1rem;
+}
+
+#francesca {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    height: 80px;
+    width: 100px;
+    background: url('images/francescaSprite.png');
+    background-position: 0 0;
+    background-size: 400px 400px;
+    z-index: 2;
+}
+
+.flower-center {
+    position: absolute;
+    border-radius: 100%;
+    color: #800;
+    text-align: center;
+    font: bold 14px/20px Arial;
+}
+
+.petal {
+    position: absolute;
+    border-radius: 100%;
+    z-index: -1;
+}
